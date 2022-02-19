@@ -1,0 +1,158 @@
+/*****************TAG SELECTORS*****************/
+
+body {
+  color: #40514E;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding: 0;
+}
+
+hr {
+  border-color: #EAF6F6;
+  border-style: dotted none none none;
+  border-width: 7px;
+  margin: 100px auto 100px auto;
+  width: 5%;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Kotta One', serif;
+  font-size: 3rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.8rem;
+  font-weight: normal;
+  margin: 10px auto auto auto;
+
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+p {
+  line-height: 2;
+  margin: 0;
+}
+
+
+/*****************CLASS SELECTORS*****************/
+
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+
+}
+
+.middle-container {
+  color: #40514E;
+  margin: 100px 0 0 0;
+  }
+
+.bottom-container {
+  background-color: #66BFBF;
+  color: #EAF6F6;
+  font-size: 0.7rem;
+  padding: 20px;
+  margin-top: 150px;
+  }
+
+.skill-row {
+  text-align: left;
+  margin: 100px auto 100px auto;
+  width: 50%;
+}
+
+.consultation-icon {
+  float: left;
+  height: auto;
+  margin: auto 30px auto auto;
+  width: 25%;
+}
+
+.programming-icon {
+  float: right;
+  height: auto;
+  margin: auto auto auto 30px;
+  width: 25%;
+}
+
+.profile-icon {
+  width: 15%;
+  height: auto;
+}
+
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 200px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.copyright-signature {
+  margin: 20px;
+}
+
+.footer-link {
+  color: #11999E;
+  font-size: 1rem;
+  margin: 15px;
+}
+
+.btn {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #3c6e6e);
+  background-image: -moz-linear-gradient(top, #66BFBF, #3c6e6e);
+  background-image: -ms-linear-gradient(top, #66BFBF, #3c6e6e);
+  background-image: -o-linear-gradient(top, #66BFBF, #3c6e6e);
+  background-image: linear-gradient(to bottom, #66BFBF, #3c6e6e);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+  top: 70px;
+}
+
+.btn:hover {
+  background: #459c9c;
+  text-decoration: none;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.end-message-p {
+  width: 40%;
+  margin: 40px auto 40px;
+}
